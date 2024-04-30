@@ -10,28 +10,41 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      demoLink: "https://game-hub-eight-brown.vercel.app/",
+      codeLink: "https://github.com/Nithinvooradi/Game-hub",
     },
     {
       id: 2,
       src: reactParallax,
+      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
+      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
     },
     {
       id: 3,
       src: navbar,
+      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
+      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
     },
     {
       id: 4,
       src: reactSmooth,
+      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
+      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
     },
     {
       id: 5,
       src: installNode,
+      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
+      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
     },
     {
       id: 6,
       src: reactWeather,
+      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
+      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
     },
   ];
+
   return (
     <div
       name="portfolio"
@@ -45,23 +58,27 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-            {portfolios.map(({id,src}) => (
-                <div  key = {id} className="shadow shadow-gray-600 rounded-lg">
-                <img
-                  src={src}
-                  alt=""
-                  className="rounded-md duration-200 hover:scale-105"
-                />
-                <div className="flex items-center justify-center">
+          {portfolios.map(({ id, src, demoLink,codeLink }) => (
+            <div key={id} className="shadow shadow-gray-600 rounded-lg">
+              <img
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-105"
+              />
+              <div className="flex items-center justify-center">
+                <a href={demoLink} target="_blank" rel="noreferrer">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Demo
                   </button>
+                </a>
+                <a href={codeLink} target="_blank" rel="noreferrer">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Code
                   </button>
-                </div>
+                </a>
               </div>
-            ))}
+            </div>
+          ))}
         </div>
       </div>
     </div>
