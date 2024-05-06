@@ -1,63 +1,73 @@
 import React from "react";
-import css from "../assets/css.png";
-import html from "../assets/html.png";
+
+
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import Ccp from "../assets/C++.png";
+
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import Java from "../assets/Java.png";
+import Python from "../assets/Python.png";
+import MySQL from "../assets/MySQL.png";
+import VsCode from "../assets/vsCode.png";
 
 const Experience = () => {
   const experiences = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: Ccp,
+      title: "C++",
+      style: "shadow-blue-800",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 3,
       src: react,
       title: "React",
-      style: "shadow-blue-500",
+      style: "shadow-cyan-700",
     },
-
     {
-      id: 5,
+      id: 4,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
     },
     {
+      id: 5,
+      src: Java,
+      title: "Java",
+      style: "shadow-orange-500",
+    },
+
+    {
       id: 6,
-      src: nextjs,
-      title: "Next Js",
-      style: "shadow-white",
+      src: Python,
+      title: "Python",
+      style: "shadow-pink-400",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQl",
-      style: "shadow-pink-400",
+      src: MySQL,
+      title: "MySQL",
+      style: "shadow-orange-300",
     },
     {
       id: 8,
       src: github,
       title: "Github",
       style: "shadow-gray-500",
+    },
+    {
+      id: 9,
+      src: VsCode,
+      title: "VsCode",
+      style: "shadow-blue-400",
     },
   ];
   return (

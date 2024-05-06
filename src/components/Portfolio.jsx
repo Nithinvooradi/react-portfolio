@@ -1,47 +1,36 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import gamehub from "../assets/portfolio/react-ts.jpg";
+import Blogapp from "../assets/portfolio/Blog Web App.jpg";
+import portfolio from "../assets/portfolio/Portfolio1.jpg";
+import Amazon from "../assets/portfolio/Amazon.jpg";
+
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      demoLink: "https://game-hub-eight-brown.vercel.app/",
-      codeLink: "https://github.com/Nithinvooradi/Game-hub",
+      src: Blogapp,
+      demoLink:
+        "https://663786a7e4a642d374d2a7e8--starlit-bunny-b1a3a4.netlify.app/",
+      codeLink: "https://github.com/Nithinvooradi/blog-reactjs",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: portfolio,
       demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
       codeLink: "https://github.com/Nithinvooradi/react-portfolio",
     },
     {
       id: 3,
-      src: navbar,
-      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
-      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
+      src: gamehub,
+      demoLink: "https://game-hub-eight-brown.vercel.app/",
+      codeLink: "https://github.com/Nithinvooradi/Game-hub",
     },
+
     {
       id: 4,
-      src: reactSmooth,
-      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
-      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
-    },
-    {
-      id: 5,
-      src: installNode,
-      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
-      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
-    },
-    {
-      id: 6,
-      src: reactWeather,
-      demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
-      codeLink: "https://github.com/Nithinvooradi/react-portfolio",
+      src: Amazon,
+      demoLink: "https://tubular-syrniki-cd720e.netlify.app/",
+      codeLink: "https://github.com/Nithinvooradi/Amazon-home-page",
     },
   ];
 
@@ -58,7 +47,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demoLink,codeLink }) => (
+          {portfolios.map(({ id, src, demoLink, codeLink }) => (
             <div key={id} className="shadow shadow-gray-600 rounded-lg">
               <img
                 src={src}

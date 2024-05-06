@@ -13,21 +13,28 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo
-          eligendi, iure vel, nostrum impedit sint earum repellat totam esse quo
-          eos ut officiis animi inventore dolor consequuntur veniam doloribus
-          voluptas aliquam autem porro enim debitis laboriosam! Sunt officiis,
-          placeat ut totam illo quibusdam commodi at exercitationem reiciendis
-          quae cum?
+          I am a committed newcomer with a broad skill set that includes
+          front-end development using TailwindCSS and ReactJS, supported by a
+          solid TypeScript and JavaScript base. I'm passionate about writing
+          effective, clean code, and my goal is to produce responsive web apps
+          and seamless user experiences that stick out in the current digital
+          environment.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
-          nemo nesciunt pariatur veritatis rem provident quibusdam a sed culpa
-          officiis perferendis delectus quasi facere minus maxime necessitatibus
-          qui, totam molestiae voluptatem recusandae nam quam accusantium.
-          Itaque sequi corrupti cumque soluta error expedita dicta
-          exercitationem cum. Assumenda, inventore? Laboriosam, porro modi!
+          My expertise is not limited to front-end technology; I also possess a
+          strong grasp of the fundamentals of back-end development. With my
+          extensive knowledge of data structures, algorithms, and SQL along with
+          my proficiency with C++ coding, I am able to design complete solutions
+          that put security, scalability, and performance first.
+        </p>
+        <br />
+        <p className="text-xl">
+          I have an insatiable need for perfection, and I'm excited to work with
+          creative teams on cutting-edge projects that test the limits of
+          technology. I am ready to contribute significantly to any company
+          looking for a driven and flexible developer because of my dedication
+          to lifelong learning and proactive approach to problem-solving.
         </p>
       </div>
     </div>
