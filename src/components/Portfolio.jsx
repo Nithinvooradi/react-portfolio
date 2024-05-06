@@ -39,20 +39,20 @@ const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg mx-auto pt-40 px-2 flex flex-col justify-center w-full h-full sm:p-4">
         <div className="pd-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work here</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-28 sm:px-4">
           {portfolios.map(({ id, src, demoLink, codeLink }) => (
             <div key={id} className="shadow shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-t-md rounded-b-sm duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <a href={demoLink} target="_blank" rel="noreferrer">
