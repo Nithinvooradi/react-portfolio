@@ -3,31 +3,39 @@ import gamehub from "../assets/portfolio/react-ts.jpg";
 import Blogapp from "../assets/portfolio/Blog Web App.jpg";
 import portfolio from "../assets/portfolio/Portfolio1.jpg";
 import Amazon from "../assets/portfolio/Amazon.jpg";
+import Shopping from "../assets/portfolio/E-Commerce Website.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: Shopping,
+      demoLink:
+        "https://precious-chimera-38af5c.netlify.app",
+      codeLink: "https://github.com/Nithinvooradi/E-Commerce-Website",
+    },
+    {
+      id: 2,
       src: Blogapp,
       demoLink:
         "https://663786a7e4a642d374d2a7e8--starlit-bunny-b1a3a4.netlify.app/",
       codeLink: "https://github.com/Nithinvooradi/blog-reactjs",
     },
     {
-      id: 2,
+      id: 3,
       src: portfolio,
       demoLink: "https://prismatic-mooncake-0a73fd.netlify.app/",
       codeLink: "https://github.com/Nithinvooradi/react-portfolio",
     },
     {
-      id: 3,
+      id: 4,
       src: gamehub,
       demoLink: "https://game-hub-eight-brown.vercel.app/",
       codeLink: "https://github.com/Nithinvooradi/Game-hub",
     },
 
     {
-      id: 4,
+      id: 5,
       src: Amazon,
       demoLink: "https://tubular-syrniki-cd720e.netlify.app/",
       codeLink: "https://github.com/Nithinvooradi/Amazon-home-page",

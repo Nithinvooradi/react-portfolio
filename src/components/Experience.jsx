@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import Ccp from "../assets/C++.png";
@@ -11,6 +10,7 @@ import Java from "../assets/Java.png";
 import Python from "../assets/Python.png";
 import MySQL from "../assets/MySQL.png";
 import VsCode from "../assets/vsCode.png";
+import redux from "../assets/Reduxtoolkit.png";
 
 const Experience = () => {
   const experiences = [
@@ -34,37 +34,43 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: redux,
+      title: "Redux Toolkit",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 5,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
     },
     {
-      id: 5,
+      id: 6,
       src: Java,
       title: "Java",
       style: "shadow-orange-500",
     },
 
     {
-      id: 6,
+      id: 7,
       src: Python,
       title: "Python",
       style: "shadow-pink-400",
     },
     {
-      id: 7,
+      id: 8,
       src: MySQL,
       title: "MySQL",
       style: "shadow-orange-300",
     },
     {
-      id: 8,
+      id: 9,
       src: github,
       title: "Github",
       style: "shadow-gray-500",
     },
     {
-      id: 9,
+      id: 10,
       src: VsCode,
       title: "VsCode",
       style: "shadow-blue-400",
