@@ -68,7 +68,13 @@ const Experience = () => {
       src: github,
       title: "Github",
       style: "shadow-gray-500",
-    }
+    },
+    {
+      id: 10,
+      src: VsCode,
+      title: "Visual Studio Code",
+      style: "shadow-blue-500",
+    },
   ];
   return (
     <div
