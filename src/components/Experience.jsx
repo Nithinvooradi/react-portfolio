@@ -69,12 +69,12 @@ const Experience = () => {
       title: "Github",
       style: "shadow-gray-500",
     },
-    {
-      id: 10,
-      src: VsCode,
-      title: "VsCode",
-      style: "shadow-blue-400",
-    },
+    // {
+    //   id: 10,
+    //   src: VsCode,
+    //   title: "VsCode",
+    //   style: "shadow-blue-400",
+    // },
   ];
   return (
     <div
