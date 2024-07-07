@@ -12,14 +12,16 @@ const Home = () => {
       <div className="max-w-screen-lg  pt-20 px-4 mx-auto flex flex-col justify-center items-center h-full  md:flex-row sm:px-4">
         <div className="flex flex-col justify-center  h-full">
           <h2 className="text-5xl sm:text-5xl font-bold text-white">
-            I'm a Front End Developer
+            I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             Passionate fresher with expertise in ReactJS, TailwindCSS,
             JavaScript, TypeScript, and proficient in C++, Data Structures,
-            Algorithms, and SQL. Dedicated to delivering high-quality code and
-            solving complex problems with a keen eye for detail and a drive for
-            continuous learning.
+            Algorithms, SQL, Node.js, and Spring Boot. Dedicated to delivering
+            high-quality code and solving complex problems with a keen eye for
+            detail and a drive for continuous learning. Skilled in both
+            front-end and back-end development, striving to build robust and
+            scalable full-stack applications.
           </p>
           <div>
             <Link

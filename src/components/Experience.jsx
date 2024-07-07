@@ -3,7 +3,7 @@ import React from "react";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import Ccp from "../assets/C++.png";
-
+import node from "../assets/node.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import Java from "../assets/Java.png";
@@ -29,7 +29,7 @@ const Experience = () => {
     {
       id: 3,
       src: react,
-      title: "React",
+      title: "React JS",
       style: "shadow-cyan-700",
     },
     {
@@ -46,31 +46,37 @@ const Experience = () => {
     },
     {
       id: 6,
+      src: node,
+      title: "Node JS",
+      style: "shadow-green-500",
+    },
+    {
+      id: 7,
       src: Java,
       title: "Java",
       style: "shadow-orange-500",
     },
 
     {
-      id: 7,
+      id: 8,
       src: Python,
       title: "Python",
       style: "shadow-pink-400",
     },
     {
-      id: 8,
+      id: 9,
       src: MySQL,
       title: "MySQL",
       style: "shadow-orange-300",
     },
     {
-      id: 9,
+      id: 10,
       src: github,
       title: "Github",
       style: "shadow-gray-500",
     },
     {
-      id: 10,
+      id: 11,
       src: VsCode,
       title: "Visual Studio Code",
       style: "shadow-blue-500",
